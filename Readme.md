@@ -13,7 +13,7 @@
 
 #### Занятия
 + ul
-  *. [Занятие 1 - Введение в html\css](https://github.com/fedorrychkov/frontendlessons/tree/master/lesson_1)
+  * [Занятие 1 - Введение в html\css](https://github.com/fedorrychkov/frontendlessons/tree/master/lesson_1)
   * Занятие 2 - Джедай Вёрстка. Делаем адаптивность
   * Занятие 3 - Джедай Вёрстка. jQuery приди, порядок наведи
   * Занятие 4 - Работаем с Gulp
