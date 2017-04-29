@@ -11,3 +11,11 @@
 3. ol [Введение в git](https://git-scm.com/book/ru/v1/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5)
 4. ol [Настраиваем git](https://git-scm.com/book/ru/v1/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-Git)
 
+#### Занятия
++ ul
+  1. ol [Занятие 1 - Введение в html\css](https://github.com/fedorrychkov/frontendlessons/tree/master/lesson_1)
+  2. ol Занятие 2 - Джедай Вёрстка. Делаем адаптивность
+  3. ol Занятие 3 - Джедай Вёрстка. jQuery приди, порядок наведи
+  4. ol Занятие 4 - Работаем с Gulp
+  5. ol Занятие 6 - Учимся работать с версиями, познаём Git
+  6. ol Занятие 7 - 
