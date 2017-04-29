@@ -1,0 +1,191 @@
+body{
+	font-family: Arial, sans-serif; /* Стиль шрифта */
+	font-size: 18px; /* Размер шрифта */
+	color: #333; /* Цвет текста */
+	background-color: #fff; /* Цвет фона */
+	/*background-image: url(../img/imgname.jpg);*//* Картинка фона */
+	background-position: center; /* Позиция картинки на фоне */
+	background-size: cover;  /* Размер картинки на фоне - 100% */
+	background-attachment: fixed; /* Таким образом мы можем зафиксировать картинку на фоне, она будет прокручиваться вместе с контентом */
+	background-repeat: no-repeat; /* Отключаем повторение картинки. Без этого свойства картинка будет продублирована на всю ширину и длину окна */
+	font-weight: 100; /* жирность шрифта. 100, 200, 300, 400, 500, 600, 700, 800, 900  - normal, bold*/
+	/* Other */
+	/* margin: 10px */ /* Отступ внешний от блока */
+	/* padding: 10px */ /* Отступ внутренний в блоке */
+	/* overflow: hidden */ /* Таким образом мы можем скрыть всё, что выходить за рамки вашего блока */
+	/* position: relative */ /* Позиционирование объекта. relative - блок обычный, существующий для остальных блоков */
+	/*			 absolute - Блок становится абсолютным внутри блока с параметром relative.
+				 Таким образом этот блок выходит из основного потока, другие блоки ведут себя так, будто его нет.
+				 fixed - Работает так же, но фиксируется на экране и всегда находится в поле видимости */ 
+	/* display:
+				block - Блок, где применён этот параметр занимает всю ширину экрана, вне зависимости от ширины его контента.
+				inline-block - Блок имеет ширину столько же, сколько контент
+				flex - Применяется к родительскому блоку, все блоки внутри занимают равную позицию от левого до правого края и становятся в 1 строку.
+				none - блок становится невидимым
+				*** Есть ещё десяток разных параметров, но эти основные. */
+	/* line-height: 1.6; - Высота межстрочного интервала
+	   letter-spacing: 0.6px - ширина между символами
+	   text-align: 
+	   				center, left , right - выравнивание текста в блоке, Так же можно применить к inline-block блокам, но от родительских классов.
+	   top: 10px;
+	   right: 10px;
+	   bottom: 10px;
+	   left: 10px;    Используется для позиционирования элемента\блока с параметром position: absolute или fixed. Так же можно в какой то степени действовать на relative
+
+	*/
+	/* hover, active, focus ... */
+	/* :hover - псевдокласс, добавляется в конец класса или идентификатора. При наведении мышкой на объект с этим классом, можно добавлять\заменять стили блока
+	   :active - при клике
+	   :focus - Когда фокус на объекте, например на input'e 
+	   :visited - посещённая ссылка
+	/* after, before */
+	/* 
+		псевдокласс after, ::after
+		Добавляется в класс, можно создать псевдо элемент для блока, его не будет в html части, он появится при помощи css в итоговой версии вашей страницы в браузере
+		after - после блока, before - до блока.
+		::after{
+			content:""; // Объявили псевдокласс after\before. Теперь ему можно давать стили. в "" - добавляется что-то или ничего вовсе.
+		}
+	*/	
+	/* Media Queries */
+	/*
+		Медиа запросы сайта. Для изменения стилей на разных разрешениях экранов.
+		@media (max-width: 1000px) and (min-width: 700px){
+			.classname{
+	
+			}
+		} // Стили для устройств от 1000 до 700 пикс в ширину, так же можно и с высотой.
+		Обычно верстают под десктоп версию, потом подгоняют под разные разрешения
+		@media( max-width:  1000px){
+	
+		}
+		....
+	*/		
+}
+/* Comment */
+
+.class_name{
+	/* <div class="class_name"></div>*/
+}
+/* Классы не уникальны, можно использовать множество раз. Не имеют функциональности*/
+#identificator_name{
+	/* <div id="identificator_name"></div>*/
+}
+/* Идентификаторы уникальны, имеют функциональность, при наборе в адрес. строку #identificator_name - 
+произойдёт скроллинг к объекту с этим идентификатором. */
+
+
+/** Стили из предыдущего задания **/
+
+.header{
+	display:block;
+	width: 100%;
+	position: relative;
+	background: #333;
+	color:#fff;
+}
+.header__inner{
+	padding: 15px 30px;
+}
+.header__logo, .header__phone{
+	display: inline-block;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.header__phone{
+	float: right;
+}
+.header__menu{
+	display: block;
+	text-align: center;
+}
+.header__menu ul{
+}
+.header__menu ul li{
+	margin: 0 20px;
+	display: inline-block;
+}
+.header__menu ul li a{
+	font-size: 25px;
+	color: #333;
+	text-decoration:none;
+	color:#fff;
+	padding: 5px 10px;
+	transition: .3s;
+}
+.header__menu ul li a:hover{
+	padding: 2px 5px;
+	border:1px #fff solid;	
+	transition: .3s;
+}
+.header__menu ul li a:active{
+	color:yellow;
+}
+.main{
+
+}
+.main__inner{
+
+}
+.main__block{
+	display: inline-block;
+	width: 30%;
+	background: #000;
+	height: 200px;
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+	margin-bottom: 2.5%;
+}
+.main__b1{
+
+}
+.main__b2{
+	
+}
+.main__b3{
+	
+}
+.footer{
+	background: #333;
+}
+.footer__menu{
+	display: inline-block;
+	text-align: left;
+	width: 59%;
+	vertical-align: top;
+
+}
+.footer__inner{
+	padding: 20px 0;
+}
+.footer__menu ul{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	margin-top: 5px;
+}
+.footer__menu ul li{
+	display: block;
+	list-style: none;
+	padding-top: 5px;
+	padding-left: 5%;
+}
+.footer__menu ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.footer__text{
+	font-size: 30px;
+	color: #f1ff00;
+	padding-top: 5px;
+	text-align: left;
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+}
+.footer__copyright{
+	padding-top: 5px;
+	color: #919191;
+	text-align: center;
+	font-size: 10px;
+}
